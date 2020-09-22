@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario</title>
+</head>
+<body>
+<h1 id="title">¿Cuál es tu comida favorita?</h1>
+<p id="desciption">El estudio será objeto de la comida que más gusta entre la población</p>
+<form id="survey-form">
+	<p id="name">Nombre: <input type="text" name="nombre"></p>
+	<p id="email">Email: <input type="email"></p>
+	<p id="number">Edad: <input type="number"></p>
+</form>
+</body>
+</html>
