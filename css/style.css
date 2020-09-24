@@ -1,1 +1,10 @@
 @charset "ISO-8859-1";
+
+#container{
+	background-color:grey;
+	max-width:1200px;
+}
+#survey-form{
+	background-color:black;
+	align-items: center;
+}

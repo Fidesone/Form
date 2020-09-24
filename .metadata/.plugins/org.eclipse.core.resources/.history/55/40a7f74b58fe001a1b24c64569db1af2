@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Formulario</title>
@@ -34,7 +34,7 @@
 		Intereses:<br>
 		<input type="checkbox" name="carnivoro">Carnivoro<br>
 		<input type="checkbox" name="vegetariano">Vegetariano<br>
-		<input type="checkbox" name="vegano">Vegano<br>
+		<input type="checkbox" name="vegano">vegano<br>
 		<input type="checkbox" name="frugívoro"> frugivoro <br> 	
 	</p>
 	<label for="comentarios">Comentario adicional:</label> <br>

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Formulario</title>
-<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body id="container">
+<body>
 <h1 id="title">¿Cuál es tu comida favorita?</h1>
 <p id="desciption">El estudio será objeto de la comida que más gusta entre la población</p>
 <form id="survey-form">
@@ -34,15 +33,11 @@
 		Intereses:<br>
 		<input type="checkbox" name="carnivoro">Carnivoro<br>
 		<input type="checkbox" name="vegetariano">Vegetariano<br>
-		<input type="checkbox" name="vegano">Vegano<br>
+		<input type="checkbox" name="vegano">vegano<br>
 		<input type="checkbox" name="frugívoro"> frugivoro <br> 	
 	</p>
 	<label for="comentarios">Comentario adicional:</label> <br>
-	<textarea id="comentarios" rows="4" cols="50" placeholder="Escribe algún comentario a destacar"></textarea> <br>
-	
-	
-	<!-- El elemento button, teniendo el valor "submit" es su atributo type, representa un botón que, cuando es presionado, envía el formulario  -->
-	<button type="submit">Enviar formulario</button>
+	<textarea id="comentarios" rows="4" placeholder="Escribe algún comentario a destacar"></textarea>
 </form>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Formulario</title>
-<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body id="container">
 <h1 id="title">¿Cuál es tu comida favorita?</h1>
