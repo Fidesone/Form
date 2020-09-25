@@ -1,10 +1,29 @@
 @charset "ISO-8859-1";
 
+
+#h1{
+	
+}
 #container{
 	background-color:grey;
 	max-width:1200px;
+	text-align: center;
+	
 }
 #survey-form{
-	background-color:black;
-	align-items: center;
+	background-color:white;
+	border:1px;
+	margin-left: 25%;
+	margin-right:25%;
+	border-style: groove;
+	
+}
+#name{
+	border-style: outset;
+}
+#email{
+	border-style: outset;
+}
+#number{
+	border-style: outset;
 }

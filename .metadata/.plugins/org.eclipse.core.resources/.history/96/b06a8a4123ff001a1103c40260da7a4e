@@ -11,7 +11,6 @@
 <p id="desciption">El estudio será objeto de la comida que más gusta entre la población</p>
 
 <!--Comienza formulario-->
-
 <form id="survey-form">
 	<p id="name">Nombre: <input type="text" placeholder="Héctor" id="name-label"></p>
 	<p id="email">Email: <input type="email" placeholder="ej: larabo@younoame" id="email-label"></p>
