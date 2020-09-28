@@ -43,7 +43,7 @@
 		<input type="checkbox" name="carnivoro">Carnivoro<br>
 		<input type="checkbox" name="vegetariano">Vegetariano<br>
 		<input type="checkbox" name="vegano">Vegano<br>
-		<input type="checkbox" name="frugívoro"> Frugivoro <br> 	
+		<input type="checkbox" name="frugívoro"> frugivoro <br> 	
 	</p>
 	<hr>
 	<label for="comentarios">Comentario adicional:</label> <br>

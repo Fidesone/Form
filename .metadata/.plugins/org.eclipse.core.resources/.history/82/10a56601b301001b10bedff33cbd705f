@@ -35,7 +35,6 @@
 		<input type="radio" name="comida" value="helado"> Helado <br>
 		<input type="radio" name="comida" value="fruta"> Fruta <br>
 	</p>
-	<hr>
 	
 	<!-- teniendo el valor "checkbox" en su atributo type, representa un control de dos estados que permite a los usuarios marcarlo como seleccionado o deseleccionado.  -->
 	<p id="intereses">
@@ -43,9 +42,8 @@
 		<input type="checkbox" name="carnivoro">Carnivoro<br>
 		<input type="checkbox" name="vegetariano">Vegetariano<br>
 		<input type="checkbox" name="vegano">Vegano<br>
-		<input type="checkbox" name="frugívoro"> Frugivoro <br> 	
+		<input type="checkbox" name="frugívoro"> frugivoro <br> 	
 	</p>
-	<hr>
 	<label for="comentarios">Comentario adicional:</label> <br>
 	<textarea id="comentarios" rows="4" cols="50" placeholder="Escribe algún comentario a destacar"></textarea> <br>
 	

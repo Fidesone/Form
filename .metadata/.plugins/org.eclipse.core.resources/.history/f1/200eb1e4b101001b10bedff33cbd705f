@@ -14,9 +14,7 @@
 
 <form id="survey-form">
 	<p id="name">Nombre: <input type="text" placeholder="Héctor" id="name-label"></p>
-	<hr>
 	<p id="email">Email: <input type="email" placeholder="ej: larabo@younoame" id="email-label"></p>
-	<hr>
 	<p id="number">Edad: <input type="number" placeholder="Introduce tu edad" id="number-label" required pattern=[0-9] min="0" max="100"></p>
 	<hr>
 	<label >Elige tu comida favorita:</label>
@@ -28,24 +26,21 @@
 		<option value="pizza">Pizza</option>
 		<option value="hamburguesa">Hamburguesa</option>
 	</select>
-	<hr>
-	<p id="postre">
+	<p>
 		Postres:<br> 
 		<input type="radio" name="comida" value="tarta"> Tarta <br>
 		<input type="radio" name="comida" value="helado"> Helado <br>
 		<input type="radio" name="comida" value="fruta"> Fruta <br>
 	</p>
-	<hr>
 	
 	<!-- teniendo el valor "checkbox" en su atributo type, representa un control de dos estados que permite a los usuarios marcarlo como seleccionado o deseleccionado.  -->
-	<p id="intereses">
+	<p>
 		Intereses:<br>
 		<input type="checkbox" name="carnivoro">Carnivoro<br>
 		<input type="checkbox" name="vegetariano">Vegetariano<br>
 		<input type="checkbox" name="vegano">Vegano<br>
-		<input type="checkbox" name="frugívoro"> Frugivoro <br> 	
+		<input type="checkbox" name="frugívoro"> frugivoro <br> 	
 	</p>
-	<hr>
 	<label for="comentarios">Comentario adicional:</label> <br>
 	<textarea id="comentarios" rows="4" cols="50" placeholder="Escribe algún comentario a destacar"></textarea> <br>
 	
