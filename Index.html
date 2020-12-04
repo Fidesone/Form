@@ -14,11 +14,11 @@
 <!--Comienza formulario-->
 
 <form id="survey-form">
-	<label id="name-id" id="name">Nombre: <input type="text" placeholder="Hector" ></label>
+	<label id="name-id" >Nombre: <input type="text" placeholder="Hector" id="name" required></label>
 	<hr>
-	<label id="email-label" id="email">Email: <input type="email" placeholder="ej: larabo@younoame" ></label>
+	<label id="email-label" >Email: <input type="email" placeholder="ej: larabo@younoame" id="email" required ></label>
 	<hr>
-	<label id="number-label" id="number">Edad: <input type="number" placeholder="Introduce tu edad"  required pattern=[0-9] min="0" max="100"></label>
+	<label id="number-label" >Edad: <input type="number" placeholder="Introduce tu edad" id="number"  required pattern=[0-9] min="0" max="100"></label>
 	<hr>
 	<label >Elige tu comida favorita:</label>
 	<select id="dropdown">
