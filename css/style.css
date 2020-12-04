@@ -1,20 +1,25 @@
-@charset "ISO-8859-1";
 
 
-#h1{
+
+
 	
-}
+
 #container{
-	background-image:  url(https://thumbs.dreamstime.com/z/fondo-de-la-comida-para-los-platos-sabrosos-del-invierno-y-oto%C3%B1o-con-calabaza-diversos-ingredientes-cocinar-cuchara-el-cuchillo-103694404.jpg);
+	
+	background-color: bisque;
 	text-align: center;
+	
+	
+	
 	
 }
 #survey-form{
-	background-color:grey;
+	background-color:rgb(172, 161, 161);
 	border:1px;
 	margin-left: 25%;
 	margin-right:25%;
 	border-style: groove;
+	opacity: 0.9;
 	
 	
 }
@@ -30,6 +35,6 @@
 }
 
 #line{
-	width:100px;
-	heigth: 100%;
+	width: 100px;
+	height: 100%;
 }
