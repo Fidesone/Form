@@ -9,16 +9,16 @@
 <body id="container">
 	
 	<h1 id="title"> Cual es tu comida favorita</h1>
-	<p id="desciption">El estudio sera objeto de la comida que mas gusta entre la poblacion</p>
+	<p id="description">El estudio sera objeto de la comida que mas gusta entre la poblacion</p>
 
 <!--Comienza formulario-->
 
 <form id="survey-form">
-	<p id="name">Nombre: <input type="text" placeholder="Hector" id="name-label"></p>
+	<label id="name-id" id="name">Nombre: <input type="text" placeholder="Hector" ></label>
 	<hr>
-	<p id="email">Email: <input type="email" placeholder="ej: larabo@younoame" id="email-label"></p>
+	<label id="email-label" id="email">Email: <input type="email" placeholder="ej: larabo@younoame" ></label>
 	<hr>
-	<p id="number">Edad: <input type="number" placeholder="Introduce tu edad" id="number-label" required pattern=[0-9] min="0" max="100"></p>
+	<label id="number-label" id="number">Edad: <input type="number" placeholder="Introduce tu edad"  required pattern=[0-9] min="0" max="100"></label>
 	<hr>
 	<label >Elige tu comida favorita:</label>
 	<select id="dropdown">
@@ -41,10 +41,10 @@
 	<!-- teniendo el valor "checkbox" en su atributo type, representa un control de dos estados que permite a los usuarios marcarlo como seleccionado o deseleccionado.  -->
 	<p id="intereses">
 		Intereses:<br>
-		<input type="checkbox" name="carnivoro">Carnivoro<br>
-		<input type="checkbox" name="vegetariano">Vegetariano<br>
-		<input type="checkbox" name="vegano">Vegano<br>
-		<input type="checkbox" name="frugivoro"> Frugivoro <br> 	
+		<input type="checkbox" name="carnivoro" value="first">Carnivoro<br>
+		<input type="checkbox" name="vegetariano" value="second">Vegetariano<br>
+		<input type="checkbox" name="vegano" value="third">Vegano<br>
+		<input type="checkbox" name="frugivoro" value="fourth"> Frugivoro <br> 	
 	</p>
 	<hr>
 	<label for="comentarios">Comentario adicional:</label> <br>
@@ -52,7 +52,7 @@
 	
 	
 	<!-- El elemento button, teniendo el valor "submit" es su atributo type, representa un bot�n que, cuando es presionado, env�a el formulario  -->
-	<button type="submit">Enviar formulario</button>
+	<button type="submit" id="submit"> Enviar formulario</button>
 </form>
 </body>
 </html>
